@@ -3,6 +3,22 @@ package chapter2_linked_list;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Chapter 2 - Question 5 -
+ * 
+ * Given a circular linked list, implement an algorithm which returns node at the beginning of the loop.
+ * DEFINITION
+ * Circular linked list: A (corrupt) linked list in which a node’s next pointer points to an 
+ * earlier node, so as to make a loop in the linked list.
+ * EXAMPLE
+ * input: A -> B -> C -> D -> E -> C [the same C as earlier]
+ * output: C
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question5 {
 
 	public static Node duplicated(Node head){

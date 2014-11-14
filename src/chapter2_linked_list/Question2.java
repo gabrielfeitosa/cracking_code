@@ -1,5 +1,15 @@
 package chapter2_linked_list;
 
+/**
+ * Chapter 2 - Question 2 -
+ * 
+ * Implement an algorithm to find the nth to last element of a singly linked list.
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question2 {
 
 	public static Node findElement(Node n,int position){

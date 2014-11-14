@@ -2,6 +2,18 @@ package chapter1_array_string;
 
 import java.util.Arrays;
 
+/**
+ * Chapter 1 - Question 3 -
+ * 
+ * Design an algorithm and write code to remove the duplicate characters in a string 
+ * without using any additional buffer. NOTE: One or two additional variables are fine.
+ * An extra copy of the array is not.
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question3 {
 
 	public static void removeDuplicate(char[] ch){

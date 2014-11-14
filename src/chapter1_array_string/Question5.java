@@ -2,6 +2,16 @@ package chapter1_array_string;
 
 import java.util.Arrays;
 
+/**
+ * Chapter 1 - Question 5 -
+ * 
+ * Write a method to replace all spaces in a string with ‘%20’
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question5 {
 
 	public static void replace(char[] ch){

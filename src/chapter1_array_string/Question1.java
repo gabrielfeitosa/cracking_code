@@ -1,5 +1,16 @@
 package chapter1_array_string;
 
+/**
+ * Chapter 1 - Question 1 -
+ * 
+ * Implement an algorithm to determine if a string has all unique characters. What if you
+ * can not use additional data structures?
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question1 {
 
 	public static void verify(String str){

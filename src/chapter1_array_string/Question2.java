@@ -1,6 +1,16 @@
 package chapter1_array_string;
 
-
+/**
+ * Chapter 1 - Question 2 -
+ * 
+ * Write code to reverse a C-Style String. (C-String means that “abcd” is represented as 
+ * five characters, including the null character.)
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question2 {
 
 	public static char[] reverse(char[] c){

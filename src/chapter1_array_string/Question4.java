@@ -2,6 +2,16 @@ package chapter1_array_string;
 
 import java.util.Arrays;
 
+/**
+ * Chapter 1 - Question 4 -
+ * 
+ * Write a method to decide if two strings are anagrams or not.
+ * 
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Question4 {
 
 	public static boolean anagram(char[] one, char[] other) {

@@ -1,5 +1,11 @@
 package chapter2_linked_list;
 
+/**
+ * @see github.com/gfeitosa/cracking_code
+ * 
+ * @author gfeitosa 
+ *
+ */
 public class Node {
 
 	Node next;
@@ -35,6 +41,6 @@ public class Node {
 	
 	@Override
 	public String toString() {
-		return data+"";
+		return String.valueOf(data);
 	}
 }
