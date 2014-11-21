@@ -14,15 +14,15 @@ package chapter4_trees_graphs;
  */
 public class Question1 {
 
-	private static TreeNode root;
+	private static Node root;
 	
 	public static void insert(int element){
 		root = insert(root, element);
 	}
 	
-	private static TreeNode insert(TreeNode node, int element) {
+	private static Node insert(Node node, int element) {
 		if(node == null){
-			return new TreeNode(element);
+			return new Node(element);
 		}
 		if(element <= node.data){
 			node.left = insert(node.left,element);
@@ -33,7 +33,7 @@ public class Question1 {
 		return node;
 	}
 
-	private static void print(TreeNode node) {
+	private static void print(Node node) {
 		if(node != null){
 			System.out.print(node.data +" ");
 			print(node.left);
@@ -41,14 +41,14 @@ public class Question1 {
 		}
 	}
 
-	private static int minDepth(TreeNode node) {
+	private static int minDepth(Node node) {
 		if(node == null){
 			return 0;
 		}
 		return 1+ (Math.min(minDepth(node.left), minDepth(node.right)));
 	}
 	
-	private static int maxDepth(TreeNode node) {
+	private static int maxDepth(Node node) {
 		if(node == null){
 			return 0;
 		}
@@ -80,12 +80,12 @@ public class Question1 {
 		isBalanced();
 	}
 	
-   static class TreeNode {
+   static class Node {
 		
-		public TreeNode left,right;
+		public Node left,right;
 		public int data;
 		
-		public TreeNode(int data) {
+		public Node(int data) {
 			this.data = data;
 			this.left = null;
 			this.right = null;
